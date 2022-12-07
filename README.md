@@ -143,3 +143,5 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 
 
 # To be updated
+
+### ALX - AirBnB clone App, authored by - Muhammad Bello and Nicholas Ifeajika

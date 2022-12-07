@@ -9,7 +9,8 @@ from models.review import Review
 
 
 class User(BaseModel, Base):
-    """This is the class for user
+    """This is the class for user. It inherits from BaseModel and Base
+    
     Attributes:
         email: email address
         password: password for you login

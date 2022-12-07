@@ -20,7 +20,8 @@ place_amenity = Table("place_amenity", Base.metadata,
 
 
 class Place(BaseModel, Base):
-    """This is the class for Place
+    """This is the class for Place. It inherits from BaseModel and Base
+    
     Attributes:
         city_id: city id
         user_id: user id
