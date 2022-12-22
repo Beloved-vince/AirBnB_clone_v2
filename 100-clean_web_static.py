@@ -11,7 +11,7 @@ Usage:
 from fabric.api import local, env, put, run
 from time import strftime
 import os.path
-env.hosts = ['35.170.76.215', '34.204.201.220']
+env.hosts = ['100.26.133.225', '54.162.6.57']
 
 
 def do_pack():
