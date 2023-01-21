@@ -34,7 +34,7 @@ sudo ln -fs /data/web_static/releases/test/ /data/web_static/current
 sudo chown -R ubuntu:ubuntu /data/
 
 # update nginx confi to serve content of /data/web_static/current to hbnb_static
-sudo sed -i '39i\ \tlocation /hbnb_static {\n\t\talias /data/web_static/current;\n\t}\n' /etc/nginx/sites-enabled/default
+sudo sed -i '39i\ \tlocation /hbnb_static {\n\t\talias /data/web_static/current;\n\t}\n' /etc/nginx/sites-enabled/globalvincesolutions.tech
 
 # restarts nginx
 sudo service nginx restart
